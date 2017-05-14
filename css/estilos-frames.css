@@ -33,10 +33,11 @@ body {
 #carrusel {
 	background: #55C2C2;
 	padding: 2% 0;
-	width: 64%;}
+	width: 64%;
+}
 	
 #bg-carrusel {
-	background: #7ECECA;
+	background: #fff;
 	border: 1px solid #45B5C4;
 	padding: 10px;
 	width: 520px;
@@ -48,9 +49,10 @@ body {
 
 h1 { 
 	font: normal 28px 'Montserrat', sans-serif;
-	margin: 0 0 25px;
-	text-align: center;
-	font-weight: 800;}
+	font-weight: 800;
+	width: 520px;
+    margin: 10px auto;
+}
 	
 h2 { 
 	font: normal 21px 'Montserrat', sans-serif;}
@@ -62,20 +64,33 @@ h3 {
 	margin-bottom: 5px;}
 
 h3.url {
-	text-decoration: underline;
 	color: #55C2C2;
+	font-weight: 400;
+	font-size: 1.8rem;
 }
 
-h4 { font-size: 18px;}
+h4 { 
+	font-size: 18px;
+	margin-bottom: 7px;
+}
 
 p { margin-bottom: 20px;
 	font-family: arial, helvetica, sans-serif;
-	font-size: 14px;}
+	font-size: 14px;
+}
+ul{
 
-li { list-style: inside;
+}
+li { 
+	list-style: none;
 	font-family: arial, helvetica, sans-serif;
-	font-size: 14px;}
-	
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+#carrusel p {
+	width: 520px;
+    margin: 0 auto 10px;
+}	
 #btn {	
 	background: rgb(245, 190, 88);
 	height: 40px;
