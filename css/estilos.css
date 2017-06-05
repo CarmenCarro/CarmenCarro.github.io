@@ -100,22 +100,31 @@ h1 .nombre {
 	}
 h1 .profesion {
 	font-size:2.8rem;
+	line-height: 0.1;
 	}
 h2 strong {
 	font-weight: 800;
 	font-size: 2.1rem;
 }
+.profesion2 {
+	font-size: 3.2rem;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin: 10px 0;
+	color: rgb(7, 158, 166);
+}
 /*Portafolio*/
-#portafolio{
+.portafolio{
 	background: rgb(230, 241, 245);
 /*	padding: 35px 0;*/
 	clear: both;
 	}
-#portafolio ul {
+.portafolio ul {
 	text-align: center;
 	margin-bottom: 3rem;
 }
-#portafolio li {
+.portafolio li {
 	background: rgb(194, 212, 200);
 	border: 1px solid rgb(114,203,202);
 	width: 30rem;
@@ -126,20 +135,20 @@ h2 strong {
 	position: relative;
 	overflow: hidden;
 	}
-#portafolio .responsive {
+.portafolio .responsive {
 	background: rgb(7, 158, 166);
 	}
-#portafolio .code {
+.portafolio .code {
 	background: rgb(114, 203, 202);
 	}
-#portafolio li img {
+.portafolio li img {
 	/*opacity: 0.9;*/
 	width: 100%;
 /*	position: absolute;
 	bottom: 2.3rem;
 	left: 4.3rem;*/
 	}
-#portafolio li:hover img {
+.portafolio li:hover img {
 	display: none;
 	}
 /*#portafolio li:hover::before {
@@ -161,25 +170,25 @@ h2 strong {
 #portafolio li:nth-child(6) {
 	
 	}*/
-#portafolio li a {
+.portafolio li a {
 	display: none;
 	}
-#portafolio li:hover {
+.portafolio li:hover {
 	background: rgb(194, 212, 200);
 	}
-#portafolio li:hover::before {
+.portafolio li:hover::before {
 	background: none;
 	}
-#portafolio li:hover a {
+.portafolio li:hover a {
 	display: block;
 	color: rgb(7, 158, 166);
 	font-size: 1.3rem;
 	padding: 2rem;
 	}
-#portafolio strong {
+.portafolio strong {
 	font-size: 1.8rem;
 	}
-#portafolio li span {
+.portafolio li span {
 	font-size: 1.6rem;
 	text-decoration: underline;
 	margin: 10px 0 0;
