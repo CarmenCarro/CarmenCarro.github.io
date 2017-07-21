@@ -13,7 +13,7 @@ body {
 	color: rgb(44, 62, 80);
 	}
 .centrado {
-	max-width: 97.1rem;
+	/*max-width: 97.1rem;*/
 	margin: 0 auto;
 	}
 section {
@@ -39,7 +39,8 @@ h4 {
 	font-size: 1.8rem;
 	margin-bottom: 2.5rem;
 	}
-p {
+p,
+.txt {
 	font-size: 1.6rem;
 	margin-bottom: 15px;
 	line-height: 1.2;
@@ -85,9 +86,9 @@ nav li a:hover {
 	}
 /*Hola*/
 .hola{
-	margin: 70px 0;
-	width: 52rem;
-	/*float: right;*/
+	margin: 20px 20px 0;
+	width: 47%;
+	display: inline-block;
 	}
 h1 strong {
 	font-weight: 800;
@@ -107,24 +108,25 @@ h2 strong {
 	font-size: 2.1rem;
 }
 .profesion2 {
-	font-size: 3.2rem;
+	font-size: 2.4rem;
 	text-align: center;
 	display: inline-block;
-	width: 100%;
-	margin: 10px 0;
+	margin: 10px 0 0;
 	color: rgb(7, 158, 166);
 }
 /*Portafolio*/
-.portafolio{
+#portafolio,
+#portafolio2{
 	background: rgb(230, 241, 245);
-/*	padding: 35px 0;*/
 	clear: both;
 	}
-.portafolio ul {
+#portafolio ul,
+#portafolio2 ul {
 	text-align: center;
 	margin-bottom: 3rem;
 }
-.portafolio li {
+#portafolio li,
+#portafolio2 li {
 	background: rgb(194, 212, 200);
 	border: 1px solid rgb(114,203,202);
 	width: 30rem;
@@ -135,60 +137,47 @@ h2 strong {
 	position: relative;
 	overflow: hidden;
 	}
-.portafolio .responsive {
+#portafolio .responsive,
+#portafolio2 .responsive {
 	background: rgb(7, 158, 166);
 	}
-.portafolio .code {
+#portafolio .code,
+#portafolio2 .code  {
 	background: rgb(114, 203, 202);
 	}
-.portafolio li img {
-	/*opacity: 0.9;*/
+#portafolio li img,
+#portafolio2 li img  {
 	width: 100%;
-/*	position: absolute;
-	bottom: 2.3rem;
-	left: 4.3rem;*/
 	}
-.portafolio li:hover img {
+#portafolio li:hover img,
+#portafolio2 li:hover img {
 	display: none;
 	}
-/*#portafolio li:hover::before {
-	content:'';
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	display: block;
-	width: 26px;
-	height: 26px;
-	}
-#portafolio .responsive li:hover a::before {
-	background: url(../img/fold-responsive.svg);
-	}
-#portafolio .code::before {
-	background: url(../img/fold-code.svg);
-	}*/
-/*#portafolio li:nth-child(3), 
-#portafolio li:nth-child(6) {
-	
-	}*/
-.portafolio li a {
+#portafolio li a,
+#portafolio2 li a {
 	display: none;
 	}
-.portafolio li:hover {
+#portafolio li:hover,
+#portafolio2 li:hover  {
 	background: rgb(194, 212, 200);
 	}
-.portafolio li:hover::before {
+#portafolio li:hover::before,
+#portafolio2 li:hover::before  {
 	background: none;
 	}
-.portafolio li:hover a {
+#portafolio li:hover a,
+#portafolio2 li:hover a  {
 	display: block;
 	color: rgb(7, 158, 166);
 	font-size: 1.3rem;
 	padding: 2rem;
 	}
-.portafolio strong {
+#portafolio strong,
+#portafolio2 strong  {
 	font-size: 1.8rem;
 	}
-.portafolio li span {
+#portafolio li span,
+#portafolio2 li span  {
 	font-size: 1.6rem;
 	text-decoration: underline;
 	margin: 10px 0 0;
@@ -270,7 +259,8 @@ footer {
 	}
 /*Responsive styles*/
 @media (max-width: 965px) {
-	#portafolio .vacio {
+	#portafolio .vacio,
+	#portafolio2 .vacio  {
 		display: none;
 	}
 	#acerca article {
