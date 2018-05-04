@@ -73,6 +73,10 @@ h4 {
 	font-size: 18px;
 	margin-bottom: 7px;
 }
+h5 {
+	font-size: 14px;
+	margin: 20px 0 7px;
+}
 
 p { margin-bottom: 20px;
 	font-family: arial, helvetica, sans-serif;
@@ -94,6 +98,7 @@ li {
 #btn {	
 	background: rgb(245, 190, 88);
 	height: 40px;
+	margin-bottom: 40px;
 }
 	
 #btn p {
