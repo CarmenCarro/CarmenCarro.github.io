@@ -42,6 +42,8 @@ body {
 	padding: 10px;
 	width: 520px;
 	margin: 0 auto;
+	height: 500px;
+
 }
 #slider img {
 	width: 100%;
@@ -51,7 +53,7 @@ h1 {
 	font: normal 28px 'Montserrat', sans-serif;
 	font-weight: 800;
 	width: 520px;
-    margin: 10px auto;
+    margin: 10px 0;
 }
 	
 h2 { 
@@ -80,7 +82,8 @@ h5 {
 
 p { margin-bottom: 20px;
 	font-family: arial, helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 15px;
+	line-height: 1.2;
 }
 ul{
 
