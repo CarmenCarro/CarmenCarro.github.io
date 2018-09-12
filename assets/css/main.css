@@ -1655,7 +1655,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ffe4b4;
+				background-color: #ededed;
 			}
 
 			input[type="submit"].primary:active,
@@ -3703,6 +3703,6 @@ input, select, textarea {
 .panel.color4-alt {
 	background: #7f8fa6!important;
 }
-ul.contact-icons.color1 > li:before {
+ul.contact-icons.color1 > li:before, input[type="submit"].primary.color1, input[type="reset"].primary.color1, input[type="button"].primary.color1, button.primary.color1, .button.primary.color1 {
 	color: #718093!important;
 }
