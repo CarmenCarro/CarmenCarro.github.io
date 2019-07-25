@@ -219,3 +219,8 @@ section {
 	color: var(--secundario);
 	background: var(--white);
 }
+@media (max-width: 500px) {
+  .colored-section {
+	padding: 6rem 1rem;	
+	}
+}
