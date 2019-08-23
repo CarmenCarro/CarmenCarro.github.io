@@ -143,6 +143,30 @@ section {
 	background: url(../img/transparencia.png) center no-repeat;
 	background-size: 90%;
 }
+.whiteRabbit {
+	background: url(../img/whiteRabbit.png) top center no-repeat;
+	background-size: 100%;
+}
+.vug {
+	background: url(../img/vug.png) center no-repeat;
+	background-size: 100%;
+}
+.tres{
+	background: url(../img/tres.png) center no-repeat;
+	background-size: 90%;
+}
+.audiencias{
+	background: url(../img/audi.png) center no-repeat;
+	background-size: 90%;
+}
+.parquimetros{
+	background: url(../img/parqui.png) center no-repeat;
+	background-size: 90%;
+}
+.pilares{
+	background: url(../img/pila.png) center no-repeat;
+	background-size: 90%;
+}
 .hovering {
 	background: rgba(89,98,117, 0.7);
 	position: absolute;
