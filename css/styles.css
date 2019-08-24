@@ -233,6 +233,7 @@ section {
 	border: 1px solid var(--white);
 	color: var(--white);
 	padding: 10px 20px;
+	margin: 5px;
 	background: transparent;
 	border-radius: 7px;
 	align-self: center;
@@ -242,6 +243,25 @@ section {
 .get-in:hover {
 	color: var(--secundario);
 	background: var(--white);
+}
+@media (max-width: 900px) {
+	.modal-content{
+		padding: 0;	
+	}
+	.modal-title,
+	.fa.fa-3x.fa-times{
+    	font-size: 2rem;
+    	margin-bottom: 20px;
+	}
+	.btn-secondary {
+		padding: 7px 40px;
+	}
+	.modal-content a{
+		font-size:  1rem;	
+	}
+	.get-in {
+		padding: 10px 15px;
+	}
 }
 @media (max-width: 500px) {
   .colored-section {
